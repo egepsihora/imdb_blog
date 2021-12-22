@@ -39,13 +39,7 @@ from django.utils import timezone
 #         return self.title
 
 
-# class Cast(models.Model):
-#     # title = models.ForeignKey(Film, on_delete=models.CASCADE)
-#     # title = models.CharField(max_length=200)
-#     player = models.ForeignKey(Person, on_delete=models.CASCADE)
-#
-#     def __str__(self):
-#         return self.title
+
 
 
 class Post(models.Model):
